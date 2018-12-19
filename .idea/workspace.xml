@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67ad6678-76bd-485d-8f1e-3e66e491733d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MyProjects/cases/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/cases/login_test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1050481424">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Log" value="2" />
+          <entry key="log" value="19" />
+          <entry key="png" value="1" />
+          <entry key="py" value="97" />
+          <entry key="yaml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="97" />
+          <entry key="YAML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="14" />
+          <entry key="py" value="2494" />
+          <entry key="txt" value="13" />
+          <entry key="yaml" value="48" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="2508" />
+          <entry key="YAML" value="48" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1590886421">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="5" />
+          <entry key="yaml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="22" />
+          <entry key="txt" value="7" />
+          <entry key="yaml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="22" />
+          <entry key="YAML" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demos" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyProjects/cases/login_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyProjects/common/log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log_message</find>
+      <find>Login_test</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo1/common/log.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/login.py" />
+        <option value="$PROJECT_DIR$/MyProjects/common/log.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/demo1_log.py" />
+        <option value="$PROJECT_DIR$/MyProjects/page/Login.py" />
+        <option value="$PROJECT_DIR$/MyProjects/common/util.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/register.py" />
+        <option value="$PROJECT_DIR$/MyProjects/page/Register_Page.py" />
+        <option value="$PROJECT_DIR$/MyProjects/automation/page/Login_Page.py" />
+        <option value="$PROJECT_DIR$/MyProjects/page/Login_Page.py" />
+        <option value="$PROJECT_DIR$/MyProjects/data/page_data.yaml" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/login_test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-186" />
+    <option name="y" value="41" />
+    <option name="width" value="1180" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ff\PycharmProjects\demos\MyProjects\cases" />
+      <recent name="C:\Users\ff\PycharmProjects\demos\MyProjects\page" />
+      <recent name="C:\Users\ff\PycharmProjects\demos\MyProjects\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in login_test.py">
+    <configuration name="Login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyProjects/page" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyProjects/page/Login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Login_Page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyProjects/page" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyProjects/page/Login_Page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo1_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyProjects/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyProjects/cases/demo1_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for login_test.Test_Login.test_login1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyProjects/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login_test.Test_Login.test_login1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in login_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyProjects/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MyProjects/cases/login_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.demo1_log" />
+      <item itemvalue="Python.Login" />
+      <item itemvalue="Python tests.Unittests in login_test.py" />
+      <item itemvalue="Python.Login_Page" />
+      <item itemvalue="Python tests.Unittests for login_test.Test_Login.test_login1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in login_test.py" />
+        <item itemvalue="Python tests.Unittests for login_test.Test_Login.test_login1" />
+        <item itemvalue="Python.Login_Page" />
+        <item itemvalue="Python.Login" />
+        <item itemvalue="Python.demo1_log" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67ad6678-76bd-485d-8f1e-3e66e491733d" name="Default Changelist" comment="" />
+      <created>1544680371910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544680371910</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add a project">
+      <created>1545038884098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545038884098</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add a project">
+      <created>1545109846528</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545109846528</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add a project">
+      <created>1545119854174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545119854174</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加一个测试行">
+      <created>1545202487312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545202487312</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 13h 18m 46s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 13h 19m 56s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 13h 21m 02s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 13h 22m 02s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 13h 25m 05s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 13h 26m 11s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 13h 30m 43s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 13h 32m 50s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 14h 18m 08s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login_test_py - 2018.12.19 at 14h 19m 14s.xml">
+      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990991" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5009009" side_tool="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9062171" weight="0.20043337" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.898314" weight="0.25785482" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" sideWeight="0.49947312" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49420443" weight="0.32792208" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.09378293" side_tool="true" weight="0.57204765" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32900432" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_DETAILS" value="true" />
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add a project" />
+    <MESSAGE value="添加一个测试行" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一个测试行" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint type="python-line" />
+      </breakpoints-defaults>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="case_datas[0]['username']" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>case_datas[0]['username']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo1/common/log.py" />
+    <entry file="file://$PROJECT_DIR$/demo1/cases/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1371342647/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="211" column="4" selection-start-line="211" selection-start-column="4" selection-end-line="211" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20273">
+          <caret line="1069" selection-start-line="1069" selection-end-line="1069" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/20181213171818_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181214095226_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181214095334_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181214095959_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181214164312_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181214170138_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181214171513_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181217100516_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/page/Login.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/login.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181218144616_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181218144201_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/reomte/Autoation/MyProjects/cases/demo1_log.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/common/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181219104137_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181219104254_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181219110016_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/../Projects/venv/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="368" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Projects/venv/Lib/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="631" selection-start-line="631" selection-end-line="631" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Projects/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1028" selection-start-line="1028" selection-end-line="1028" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/diff_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/resultpang/1250878171@qq.com.png" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/register.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181219133248_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181219133237_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181219133214_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181219133007_autotest.log" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/page/Register_Page.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/automation/page/Login_Page.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/automation/cases/demo1_log.py" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/register_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/common/util.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/demo1_log.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/data/page_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/page/Login_Page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/common/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -10,16 +10,16 @@ case_path = path + '\\data\\case.xlsx'
 case_datas = util.get_case_data(case_path, 0)
 
 
-#TODO  log 所有用例一个log
-#TODO 生成报告并且以邮件的形式发送
-#TODO 优化代码
+# TODO  log 所有用例一个log
+# TODO 生成报告并且以邮件的形式发送
+# TODO 优化代码
 
 @ddt.ddt
 class Test_Login(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.login_fun = Login_test(self.driver)
-        self.test=""
+        self.test = "123456"
 
     def login_verify(self, name, pwd, assert_value):
         self.re_data = self.login_fun.login(name, pwd)
