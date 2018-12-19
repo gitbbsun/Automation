@@ -19,6 +19,7 @@ class Test_Login(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.login_fun = Login_test(self.driver)
+        self.test=""
 
     def login_verify(self, name, pwd, assert_value):
         self.re_data = self.login_fun.login(name, pwd)
