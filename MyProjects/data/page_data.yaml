@@ -1,0 +1,7 @@
+login:
+    url: "https://pre.svocloud.com/#/login"
+    login_title: "请登录"
+    username: "//input[@type='text']"
+    password: "//input[@type='password']"
+    login_btn: "//button[@type='submit']"
+    login_err: "//p"
