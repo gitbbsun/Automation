@@ -17,11 +17,7 @@ class log_message():
 
         log_filedir = 'Log'
         if not os.path.isdir(log_filedir):
-            print("日志文件夹 %s 不存在，开始创建此文件夹" % log_filedir)
             os.mkdir('Log')
-        else:
-            print("日志文件夹 %s 存在" % log_filedir)
-
         file = os.path.join(parentdir_path + '\\Log', logname)
         # 1：创建日志级别：logging 有6个日志级别  NOTSET, DEBUG, INFO, WARNING, ERROR, CRITICAL
         self.logger = logging.Logger("自动化测试")
