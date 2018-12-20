@@ -9,7 +9,7 @@ case_path = path + '\\data\\case.xlsx'
 case_datas = util.get_case_data(case_path, 0)
 
 
-# TODO 截图将浏览器console中内容截图下来
+# TODO 1 截图将浏览器console中内容截图下来
 # TODO  log 所有用例一个log
 # TODO 优化代码   元素定位
 # TODO ddt读取数据修改
