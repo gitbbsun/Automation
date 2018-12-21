@@ -1,13 +1,41 @@
-import xlrd
-
-from MyProjects.common import log
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import smtplib
+import smtplib, os, logging, xlrd
 from email.header import Header
-logs = log.log_message()
 
 
+# 写入日志
+def set_log(str):
+    logger = logging.getLogger("UI_test")
+
+    if not logger.handlers:
+        # 1：创建日志级别：logging 有6个日志级别  NOTSET, DEBUG, INFO, WARNING, ERROR, CRITICAL
+        # 创建日志级别为INFO，那么低于INFO级别的日志都会被忽略
+        logger.setLevel(logging.INFO)
+        path = os.getcwd().split('cases')[0] + "\\Log\\UI_autotest.log"
+
+        # 2：创建文件handler，用于写入日志文件并设置文件日志级别
+        fh = logging.FileHandler(path)
+        fh.setLevel(logging.INFO)
+
+        # 3：创建控制端输出handler，用于输出到控制端并设置输出日志级别
+        ch = logging.StreamHandler()
+        ch.setLevel(logging.INFO)
+
+        # 4：在控制端handler添加过滤器，将含有chat或者gui的handler信息输出    或者在日志文件添加过滤器
+        filter = logging.Filter("hello")
+        ch.addFilter(filter)
+
+        formatter = logging.Formatter('%(asctime)s - %(filename)s[line:%(lineno)d]-%(funcName)s - %(message)s')
+        fh.setFormatter(formatter)
+        ch.setFormatter(formatter)
+
+        logger.addHandler(fh)
+        logger.addHandler(ch)
+    logger.info(str)
+
+
+# 获取excel用例数据
 def get_case_data(filepath, index):
     try:
         file = xlrd.open_workbook(filepath)
@@ -19,11 +47,14 @@ def get_case_data(filepath, index):
             dict_param['id'] = case_data.cell(i, 0).value
             dict_param.update(eval(case_data.cell(i, 2).value))
             dict_param.update(eval(case_data.cell(i, 3).value))
+            dict_param.update(eval(case_data.cell(i, 4).value))
             list_data.append(dict_param)
         return list_data
     except Exception as e:
-        logs.error_log(e)
+        set_log(e)
 
+
+# 发送测试报告
 def send_email(newfile):
     # 打开文件
     f = open(newfile, 'rb')

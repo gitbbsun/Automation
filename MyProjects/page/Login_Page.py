@@ -1,7 +1,6 @@
-import yaml
-from MyProjects.common.log import log_message
-import os
-import time
+import yaml, os, time
+from MyProjects.common.util import set_log
+
 path = os.getcwd().split('cases')[0]  # 获取当前目录
 
 
@@ -29,4 +28,4 @@ class Login_test():
             self.driver.find_element_by_xpath(self.login_btn).click()
             return self.driver.find_element_by_xpath(self.error).text
         except BaseException as e:
-            log_message().error_log(e)
+            set_log(e)
