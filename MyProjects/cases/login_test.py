@@ -9,12 +9,11 @@ case_path = path + '\\data\\case.xlsx'
 case_datas = util.get_case_data(case_path, 0)
 
 
-# TODO ddt深入学习  不同数据类型  doc
-
 #TODO 解决测试报告中，用例标题的显示
 # TODO 优化代码   元素定位
 
 
+#TODO 需要深入学习ddt、yaml、pytest   12：31
 # TODO 1 截图将浏览器console中内容截图下来
 @ddt
 class Test_Login(unittest.TestCase):
