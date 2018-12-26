@@ -9,6 +9,7 @@ import unittest, os, time
 import HTMLTestReportCN
 from MyProjects.common.util import send_email
 
+#unittest + ddt + excel作为数据驱动模式的应用，使用HTMLTestReportCN来生成测试用例
 
 def create_suite(case_dir):  # 生成测试套件
     test_cases = unittest.TestSuite()

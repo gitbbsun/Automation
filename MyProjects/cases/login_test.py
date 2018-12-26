@@ -9,11 +9,10 @@ case_path = path + '\\data\\case.xlsx'
 case_datas = util.get_case_data(case_path, 0)
 
 
-#TODO 解决测试报告中，用例标题的显示
+
 # TODO 优化代码   元素定位
 
-
-#TODO 需要深入学习ddt、yaml、pytest   12：31
+# TODO 需要深入学习ddt、yaml、pytest   12：31
 # TODO 1 截图将浏览器console中内容截图下来
 @ddt
 class Test_Login(unittest.TestCase):
@@ -37,8 +36,7 @@ class Test_Login(unittest.TestCase):
         self.assertEqual(self.re_data, assert_value)
 
     @data(*case_datas)
-    def test_loginA(self, case_data):
-        """1：用户登录"""
+    def test_login(self, case_data):
         if (case_data['skip'] == 0):
             self.name = case_data['username']
             self.pwd = case_data['pwd']
