@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67ad6678-76bd-485d-8f1e-3e66e491733d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Interface/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/cases/data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/cases/login_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/common/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProjects/cases/study_yaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/demos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyProjects/cases/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/cases/login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyProjects/data/case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/data/case.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyProjects/data/page_data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/data/page_data.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyProjects/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyProjects/resultpang/125087817.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/resultpang/125087817.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyProjects/resultpang/1250878171@qq.com.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/resultpang/1250878171@qq.com.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyProjects/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyProjects/run_all.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,44 +76,45 @@
     <session id="1590886421">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="10" />
-          <entry key="log" value="16" />
+          <entry key="log" value="17" />
           <entry key="md" value="1" />
           <entry key="png" value="10" />
-          <entry key="py" value="131" />
-          <entry key="yaml" value="19" />
+          <entry key="py" value="167" />
+          <entry key="yaml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="10" />
           <entry key="Image" value="10" />
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="131" />
-          <entry key="YAML" value="19" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="167" />
+          <entry key="YAML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2631" />
-          <entry key="txt" value="149" />
+          <entry key="py" value="5508" />
+          <entry key="txt" value="199" />
           <entry key="yaml" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="149" />
-          <entry key="Python" value="2631" />
+          <entry key="PLAIN_TEXT" value="199" />
+          <entry key="Python" value="5508" />
           <entry key="YAML" value="142" />
         </counts>
       </usages-collector>
@@ -120,14 +124,28 @@
     <favorites_list name="demos" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyProjects/cases/login_test.py">
+        <entry file="file://$PROJECT_DIR$/Interface/cases/login_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interface/common/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="131" column="42" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
+              <folding>
+                <element signature="e#138#164#0" expanded="true" />
+                <element signature="e#204#1843#0" />
+                <element signature="e#1895#2724#0" />
               </folding>
             </state>
           </provider>
@@ -138,6 +156,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -179,18 +198,24 @@
         <option value="$PROJECT_DIR$/MyProjects/cases/demo4.py" />
         <option value="$PROJECT_DIR$/MyProjects/cases/demo3.py" />
         <option value="$PROJECT_DIR$/MyProjects/cases/page_data.yaml" />
-        <option value="$PROJECT_DIR$/MyProjects/cases/data.yaml" />
-        <option value="$PROJECT_DIR$/MyProjects/cases/study_screenshot.py" />
         <option value="$PROJECT_DIR$/MyProjects/cases/study_pytest.py" />
-        <option value="$PROJECT_DIR$/MyProjects/cases/study_ddt.py" />
         <option value="$PROJECT_DIR$/MyProjects/run_all.py" />
         <option value="$PROJECT_DIR$/MyProjects/data/page_data.yaml" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/ddt.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/data.yaml" />
         <option value="$PROJECT_DIR$/MyProjects/cases/login_test.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/study_screenshot.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/test.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/study_ddt.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/study_yaml.py" />
+        <option value="$PROJECT_DIR$/MyProjects/cases/demo1.py" />
+        <option value="$PROJECT_DIR$/Interface/common/send_requests.py" />
+        <option value="$PROJECT_DIR$/Interface/common/util.py" />
+        <option value="$PROJECT_DIR$/Interface/cases/login_test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -219,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,60 +254,41 @@
             <path>
               <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
               <item name="cases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="MyProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Edge1.5" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="F:/学习/svoc-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ff\PycharmProjects\Automation\Interface\cases" />
       <recent name="C:\Users\ff\PycharmProjects\Automation\MyProjects\cases" />
       <recent name="C:\Users\ff\PycharmProjects\demos\MyProjects\cases" />
       <recent name="C:\Users\ff\PycharmProjects\demos\MyProjects\page" />
       <recent name="C:\Users\ff\PycharmProjects\demos\MyProjects\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ff\PycharmProjects\Automation\MyProjects\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_all">
+  <component name="RunManager" selected="Python.login_test">
     <configuration name="demo4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="demos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,7 +325,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interface/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface/cases/login_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all" type="PythonConfigurationType" factoryName="Python">
       <module name="demos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,6 +367,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for study_yaml.TestDdt1.test_ddt" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyProjects/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;study_yaml.TestDdt1.test_ddt&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in login_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="demos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -355,50 +395,35 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in demo2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="study_yaml.py" type="tests" factoryName="Unittests">
       <module name="demos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyProjects/cases" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\ff\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/MyProjects/cases/demo2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in study_ddt.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="demos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyProjects/cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/MyProjects/cases/study_ddt.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MyProjects/cases/study_yaml.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in login_test.py" />
       <item itemvalue="Python.run_all" />
-      <item itemvalue="Python tests.pytest in demo2.py" />
+      <item itemvalue="Python tests.study_yaml.py" />
       <item itemvalue="Python.demo4" />
-      <item itemvalue="Python tests.pytest in study_ddt.py" />
+      <item itemvalue="Python tests.Unittests in login_test.py" />
+      <item itemvalue="Python tests.Unittests for study_yaml.TestDdt1.test_ddt" />
+      <item itemvalue="Python.login_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_all" />
+        <item itemvalue="Python.login_test" />
+        <item itemvalue="Python tests.Unittests for study_yaml.TestDdt1.test_ddt" />
         <item itemvalue="Python tests.Unittests in login_test.py" />
-        <item itemvalue="Python tests.pytest in study_ddt.py" />
         <item itemvalue="Python.demo4" />
-        <item itemvalue="Python tests.pytest in demo2.py" />
       </list>
     </recent_temporary>
   </component>
@@ -476,42 +501,49 @@
       <option name="project" value="LOCAL" />
       <updated>1545631351905</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ddt加入之后，在测试报告中，显示自定义的测试用例名称">
+      <created>1545811441550</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545811441550</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_study_ddt_py - 2018.12.24 at 13h 46m 16s.xml">
-      <configuration name="pytest in study_ddt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_study_ddt_py - 2018.12.27 at 14h 09m 45s.xml">
+      <configuration name="Unittests in study_ddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_study_ddt_py - 2018.12.24 at 13h 47m 16s.xml">
-      <configuration name="pytest in study_ddt.py" configurationId="tests" />
+    <history-entry file="Unnamed - 2018.12.27 at 14h 11m 51s.xml">
+      <configuration name="Unnamed" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_study_ddt_py - 2018.12.24 at 13h 48m 10s.xml">
-      <configuration name="pytest in study_ddt.py" configurationId="tests" />
+    <history-entry file="study_yaml_py - 2018.12.27 at 14h 12m 30s.xml">
+      <configuration name="study_yaml.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_study_ddt_py - 2018.12.24 at 13h 49m 58s.xml">
-      <configuration name="pytest in study_ddt.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_study_ddt_py - 2018.12.24 at 13h 50m 35s.xml">
-      <configuration name="pytest in study_ddt.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_study_ddt_py - 2018.12.24 at 13h 52m 58s.xml">
-      <configuration name="pytest in study_ddt.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_study_ddt_py - 2018.12.24 at 13h 53m 19s.xml">
-      <configuration name="pytest in study_ddt.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_login_test_py - 2018.12.26 at 14h 37m 00s.xml">
+    <history-entry file="Unittests_in_login_test_py - 2018.12.27 at 14h 13m 35s.xml">
       <configuration name="Unittests in login_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_login_test_py - 2018.12.26 at 14h 41m 22s.xml">
+    <history-entry file="Unittests_in_login_test_py - 2018.12.27 at 14h 14m 43s.xml">
       <configuration name="Unittests in login_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_login_test_py - 2018.12.26 at 14h 46m 07s.xml">
-      <configuration name="Unittests in login_test.py" configurationId="tests" />
+    <history-entry file="study_yaml_py - 2018.12.27 at 14h 22m 28s.xml">
+      <configuration name="study_yaml.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="study_yaml_py - 2018.12.27 at 14h 23m 19s.xml">
+      <configuration name="study_yaml.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="study_yaml_py - 2018.12.27 at 14h 23m 28s.xml">
+      <configuration name="study_yaml.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_study_yaml_TestDdt1_test_ddt - 2018.12.27 at 14h 23m 32s.xml">
+      <configuration name="Unittests for study_yaml.TestDdt1.test_ddt" configurationId="tests" />
+    </history-entry>
+    <history-entry file="study_yaml_py - 2018.12.28 at 11h 44m 16s.xml">
+      <configuration name="study_yaml.py" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -521,7 +553,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990991" visible="true" weight="0.18598525" />
@@ -529,15 +561,15 @@
       <window_info id="Favorites" order="2" sideWeight="0.5009009" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9041096" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.89726025" weight="0.47020584" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9041096" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.89726025" weight="0.3434453" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.6101159" weight="0.3997833" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" sideWeight="0.49947312" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49420443" weight="0.3274918" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49420443" weight="0.32719395" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.09589041" side_tool="true" weight="0.32792208" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32900432" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -560,10 +592,18 @@
     <MESSAGE value="1：用例中添加用例是否要执行列&#10;2：脚本中添加执行log&#10;3：优化截图功能&#10;4：研究ddt的使用" />
     <MESSAGE value="1：学习ddt&#10;2：用例中使用数据驱动（ddt）&#10;3：修复测试报告中出现用例名称中显示dict()-&gt;new enpty dictionary" />
     <MESSAGE value="添加学习计划" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加学习计划" />
+    <MESSAGE value="ddt加入之后，在测试报告中，显示自定义的测试用例名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="ddt加入之后，在测试报告中，显示自定义的测试用例名称" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/MyProjects/cases/study_yaml.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-defaults>
         <breakpoint type="python-line" />
       </breakpoints-defaults>
@@ -587,6 +627,41 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>s[&quot;id&quot;]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s[self.keys[x]]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.keys[x]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>values[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.getcwd()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>value[&quot;case_name&quot;]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -596,67 +671,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>value['username']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>case_datas[0]['skip'] == 0</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>case_datas[0]['skip']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>os.path.join(os.getcwd(), &quot;common&quot;) + &quot;\\Log\\UI_Log.log&quot;</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>os.getcwd().</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>os.getcwd().join('cases')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>os.getcwd()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Projects/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="393" selection-start-line="393" selection-end-line="393" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="1884" selection-start-line="1884" selection-end-line="1884" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181220103537_autotest.log" />
-    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181220103426_autotest.log" />
-    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181220103739_autotest.log" />
-    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181220103726_autotest.log" />
-    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181220103659_autotest.log" />
-    <entry file="file://$PROJECT_DIR$/MyProjects/Log/20181220103645_autotest.log" />
-    <entry file="file://$PROJECT_DIR$/MyProjects/page/Register_Page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="944">
@@ -751,21 +768,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyProjects/cases/page_data.yaml" />
-    <entry file="file://$PROJECT_DIR$/MyProjects/cases/data.yaml" />
-    <entry file="file://$PROJECT_DIR$/MyProjects/Log/UI_autotest.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProjects/common/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/yaml/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -773,13 +775,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyProjects/cases/demo1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyProjects/cases/study_screenshot.py">
+    <entry file="file://$PROJECT_DIR$/MyProjects/report/2018122614_UC_UI_TestReport.html" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/data/data.yaml" />
+    <entry file="file://$PROJECT_DIR$/MyProjects/common/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="152">
+          <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/page/Login_Page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -790,30 +812,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/test.py" />
     <entry file="file://$PROJECT_DIR$/MyProjects/cases/study_ddt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#146#161#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyProjects/run_all.py">
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/login_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#141#166#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyProjects/page/Login_Page.py">
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/study_screenshot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="65" lean-forward="true" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        <state relative-caret-position="110">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -824,22 +848,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyProjects/report/2018122614_UC_UI_TestReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/ddt.py">
+    <entry file="file://$PROJECT_DIR$/MyProjects/data/study_data.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        <state relative-caret-position="152">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyProjects/cases/login_test.py">
+    <entry file="file://$PROJECT_DIR$/MyProjects/Log/UI_autotest.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjects/cases/study_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#145#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4959" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/common/send_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6407">
+          <folding>
+            <element signature="e#3022#3071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/xlrd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/common/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="131" column="42" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
+          <folding>
+            <element signature="e#138#164#0" expanded="true" />
+            <element signature="e#204#1843#0" />
+            <element signature="e#1895#2724#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/cases/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

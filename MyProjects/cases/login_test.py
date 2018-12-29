@@ -15,7 +15,7 @@ case_datas = util.get_case_data(case_path, 0)
 # TODO 需要深入学习ddt、yaml、pytest   12：31
 # TODO 1 截图将浏览器console中内容截图下来
 @ddt
-class Test_Login(unittest.TestCase):
+class TestLogin(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.login_fun = Login_test(self.driver)
