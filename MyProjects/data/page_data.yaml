@@ -1,5 +1,5 @@
 login:
-    url: "https://pre.svocloud.com"
+    url: "www.baidu.com"
     login_title: "请登录"
     username: "//input[@type='text']"
     password: "//input[@type='password']"

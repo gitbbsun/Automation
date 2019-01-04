@@ -68,36 +68,6 @@ def send_requests(case_data):
         re = requests.post(url, json=body, headers=headers)
     return re.status_code
 
-    # verify = False
-    # res = {}
-
-    # if method == "post":
-    #     try:
-    #         r = s.request(method=method,
-    #                       url=url,
-    #                       params=params,
-    #                       headers=headers,
-    #                       data=body,
-    #                       verify=verify)
-    #         res['id'] = testdata['id']
-    #         res['rowNum'] = testdata['rowNum']
-    #         res['statuscode'] = str(r.status_code)
-    #         res['text'] = r.content.decode("utf-8")
-    #         res["times"] = str(r.elapsed.total_seconds())
-    #         if res["statuscode"] != "200":
-    #             res["error"] = res["text"]
-    #         else:
-    #             res["error"] = ""
-    #         res["msg"] = ""
-    #         if testdata["checkpoint"] in res["text"]:
-    #             res["result"] = "pass"
-    #         else:
-    #             res["result"] = "fail"
-    #         return res
-    #     except Exception as msg:
-    #         res["msg"] = str(msg)
-    #         return res
-
 
 def copy_excel(data_path, report_path):
     report = openpyxl.Workbook()

@@ -23,6 +23,6 @@ cases = create_suite(case_path)
 now = time.strftime("%Y%m%d%H", time.localtime(time.time()))
 filename = os.getcwd() + "\\report\\" + now + "_Intserface_TestReport.html"
 fp = open(filename, 'wb')
-runner = HTMLTestReportCN.HTMLTestRunner(stream=fp, title=u'UI测试报告', description=u'用例测试结果', tester='bbsun')
+runner = HTMLTestReportCN.HTMLTestRunner(stream=fp, title=u'接口自动化测试报告', description=u'用例测试结果', tester='bbsun')
 runner.run(cases)
 fp.close()
