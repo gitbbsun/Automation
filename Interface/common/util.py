@@ -5,71 +5,15 @@
 # @File    : util.py
 # @Software: PyCharm
 
-import json, xlrd, request
+import json, xlrd, requests
 import openpyxl
 from openpyxl import load_workbook
 
-
-def send_requests(s, testdata):
-    method = testdata["method"]
-    url = testdata["url"]
-    # url后面的参数
-    try:
-        params = eval(testdata["params"])
-    except:
-        params = None
-    try:
-        # 头部信息
-        headers = eval(testdata["headers"])
-        print(f"打印头部信息:{headers}")
-    except:
-        headers = None
-    # post请求body类型
-    type = testdata["type"]
-    test_num = testdata["id"]
-    print(f"正在执行的用例:{test_num},请求方式：{method},请求url：{url},请求参数：{params}")
-    # 判断body内容
-    try:
-        bodydata = eval(testdata["body"])
-    except:
-        bodydata = {}
-    # 判断传的data数据还是json
-    if type == "data":
-        body = bodydata
-    else:
-        body = json.dumps(bodydata)
-    verify = False
-    res = {}
-    if method == "post":
-        try:
-            r = s.request(method=method,
-                          url=url,
-                          params=params,
-                          headers=headers,
-                          data=body,
-                          verify=verify)
-            res['id'] = testdata['id']
-            res['rowNum'] = testdata['rowNum']
-            res['statuscode'] = str(r.status_code)
-            res['text'] = r.content.decode("utf-8")
-            res["times"] = str(r.elapsed.total_seconds())
-            if res["statuscode"] != "200":
-                res["error"] = res["text"]
-            else:
-                res["error"] = ""
-            res["msg"] = ""
-            if testdata["checkpoint"] in res["text"]:
-                res["result"] = "pass"
-            else:
-                res["result"] = "fail"
-            return res
-        except Exception as msg:
-            res["msg"] = str(msg)
-            return res
+base_url = "https://pre.svocloud.com/"
 
 
 # xlrd读取excel测试数据，返回字典格式
-class ExcelUtil():
+class ReadExcel():
     def __init__(self, excelPath, sheetName="Sheet1"):
         self.data = xlrd.open_workbook(excelPath)
         self.table = self.data.sheet_by_name(sheetName)
@@ -82,21 +26,77 @@ class ExcelUtil():
 
     def dict_data(self):
         if self.rowNum <= 1:
-            print("无数据")
+            print("表格未填数据")
+            return None
         else:
-            r = []
-            j = 1
-            for i in list(range(self.rowNum - 1)):
-                s = {}
-                # 从第二行获取对应values的值
-                # s["rowNum"] = i + 2
-                values = self.table.row_values(j)
-                for x in list(range(self.colNum)):
-                    s[self.keys[x]] = values[x]
-                r.append(s)
-                j += 1
-                print(f"打印excel数据:{r}")
-            return r
+            # 获取表格第一行列名
+            keys = self.table.row_values(0)
+            # print(keys)
+            ExcelData = []
+            # 获取每一行的内容，列表格式
+            for col in range(1, self.rowNum):
+                values = self.table.row_values(col)
+                # keys,values这2个列表一一对应来组合转换为字典
+                api_data = dict(zip(keys, values))
+                ExcelData.append(api_data)
+            return ExcelData
+
+
+def send_requests(case_data):
+    method = case_data["method"]
+    url = base_url + case_data["url"]
+    headers = case_data["headers"]
+    body = case_data["body"]
+    params = case_data["params"]
+    if headers == "":
+        headers = {}
+    else:
+        headers = json.loads(case_data["headers"])
+
+    if params == "":
+        params = {}
+    else:
+        params = json.loads(case_data["params"])
+    if body == "":
+        body = {}
+    else:
+        body = json.loads(case_data["body"])
+
+    if (method == "get"):
+        re = requests.post(url, headers=headers, params=params)
+    else:
+        re = requests.post(url, json=body, headers=headers)
+    return re.status_code
+
+    # verify = False
+    # res = {}
+
+    # if method == "post":
+    #     try:
+    #         r = s.request(method=method,
+    #                       url=url,
+    #                       params=params,
+    #                       headers=headers,
+    #                       data=body,
+    #                       verify=verify)
+    #         res['id'] = testdata['id']
+    #         res['rowNum'] = testdata['rowNum']
+    #         res['statuscode'] = str(r.status_code)
+    #         res['text'] = r.content.decode("utf-8")
+    #         res["times"] = str(r.elapsed.total_seconds())
+    #         if res["statuscode"] != "200":
+    #             res["error"] = res["text"]
+    #         else:
+    #             res["error"] = ""
+    #         res["msg"] = ""
+    #         if testdata["checkpoint"] in res["text"]:
+    #             res["result"] = "pass"
+    #         else:
+    #             res["result"] = "fail"
+    #         return res
+    #     except Exception as msg:
+    #         res["msg"] = str(msg)
+    #         return res
 
 
 def copy_excel(data_path, report_path):

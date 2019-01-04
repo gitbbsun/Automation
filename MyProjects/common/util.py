@@ -48,6 +48,7 @@ def get_case_data(filepath, index):
             dict_param.update(eval(case_data.cell(i, 2).value))
             dict_param.update(eval(case_data.cell(i, 3).value))
             dict_param.update(eval(case_data.cell(i, 4).value))
+            dict_param.update(eval(case_data.cell(i, 5).value))
             list_data.append(dict_param)
         return list_data
     except Exception as e:

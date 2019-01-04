@@ -7,6 +7,7 @@ from ddt import data, ddt
 path = os.getcwd().split('cases')[0]
 case_path = path + '\\data\\case.xlsx'
 case_datas = util.get_case_data(case_path, 0)
+print(case_datas)
 
 
 
