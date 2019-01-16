@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Interface/common/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -102,6 +102,7 @@
         <option value="$PROJECT_DIR$/Interface/cases/APP_login.py" />
         <option value="$PROJECT_DIR$/Interface/common/util.py" />
         <option value="$PROJECT_DIR$/Interface/cases/android.py" />
+        <option value="$PROJECT_DIR$/Interface/cases/android_login.py" />
       </list>
     </option>
   </component>
@@ -215,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.android">
+  <component name="RunManager" selected="Python.android_login">
     <configuration name="APP_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="demos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,6 +251,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface/cases/android.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="android_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interface/cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface/cases/android_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,20 +343,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="demos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interface/cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Interface/cases/test_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="study_yaml.py" type="tests" factoryName="Unittests">
       <module name="demos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -354,18 +362,18 @@
       <item itemvalue="Python.run_all" />
       <item itemvalue="Python.run_all (1)" />
       <item itemvalue="Python tests.study_yaml.py" />
-      <item itemvalue="Python tests.Unittests in test_login.py" />
       <item itemvalue="Python.study_os" />
       <item itemvalue="Python.APP_login" />
       <item itemvalue="Python.android" />
+      <item itemvalue="Python.android_login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.android_login" />
         <item itemvalue="Python.android" />
         <item itemvalue="Python.APP_login" />
         <item itemvalue="Python.study_os" />
         <item itemvalue="Python.run_all (1)" />
-        <item itemvalue="Python tests.Unittests in test_login.py" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +518,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990991" visible="true" weight="0.18526785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -647,7 +654,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyProjects/Log/UI_Log.log" />
     <entry file="file://$PROJECT_DIR$/MyProjects/cases/.pytest_cache/README.md" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/yaml/constructor.py" />
     <entry file="file://$PROJECT_DIR$/MyProjects/report/2018122110_UC_UI_TestReport.html" />
@@ -832,10 +838,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/cases/android_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Interface/common/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

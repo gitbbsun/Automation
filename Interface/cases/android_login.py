@@ -2,6 +2,16 @@ import time
 
 from appium import webdriver
 
+
+#TODO 查看demo
+#TODO 断言添加
+#TODO 编写登录、注册、发起会议、加入会议功能脚本
+#TODO 查看appium文档 了解appium、selenium的底层关系
+#TODO 学习monkey、monkeyrunner工具
+
+#TODO 移动端自动化脚本框架
+
+
 desired_caps = {}
 desired_caps['platformName'] = "Android"
 desired_caps['platformVersion'] = "5.1"
